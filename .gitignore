@@ -1,0 +1,17 @@
+# Node.js build artifacts and local files
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# SQLite database (generated at runtime)
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment secrets – never commit!
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
